@@ -25,25 +25,22 @@
 function trovagiudizio(voto) {
 
   if (voto < 1 || voto > 10) {
-    return ("Voto non valido")
+    return "Voto non valido"
   }
   else if (voto < 5) {
-    return ("Gravemente insufficiente")
+    return "Gravemente insufficiente"
   }
   else if (voto < 6) {
-    return ("Insufficiente")
+    return "Insufficiente"
   }
   else if (voto < 7) {
-    return ("Sufficiente")
+    return "Sufficiente"
   }
   else if (voto < 8) {
-    return ("Buono")
+    return "Buono"
   }
   else if (voto => 8) {
-    return ("Ottimo")
-  }
-  else if (voto < 5) {
-    return ("Gravemente insufficiente")
+    return "Ottimo"
   }
 }
 
