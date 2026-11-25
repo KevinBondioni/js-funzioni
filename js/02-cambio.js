@@ -11,8 +11,8 @@
   STEPS
   1 -creo un prompt che mi permette di inserire i soldi da cambiare il tasso del cambio e la commissione
   2 -trasformo il prompt in numero
-  3 -sottraggo la commissione dai soldi da cambiare
-  4 -se sufficienti converto altrimenti restituisco 0
+  3 -controllo se i soldi coprono la commissione se no restituisco 0
+  4 -sottraggo la commissione dai soldi da cambiare
   5 -prendo il rimanente e il tasso di cambio e converto da euro a dollari
   6 -formatto la cifra con 2 decimali
   7 -restituisco la crifra all utente

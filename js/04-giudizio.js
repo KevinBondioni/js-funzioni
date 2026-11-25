@@ -3,13 +3,13 @@
 
 /*
   LE QUATTRO DOMANDE (una risposta per ogni funzione)
-  Come si chiama?
-  Di quali dati ha bisogno?
-  Deve restituire qualcosa?
-  Di che tipo?
+  Come si chiama? trovaGiudizio
+  Di quali dati ha bisogno? dei voti
+  Deve restituire qualcosa? la valutazione
+  Di che tipo? stringa
 
   STEPS
-  1 -
+  1 - chiedo all'utente
   2 -
   3 -
 */
