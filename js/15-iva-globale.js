@@ -4,14 +4,13 @@
 // # Il programma di partenza: è già scritto. Leggilo e prevedi cosa stampa, prima di aprire la pagina.
 let percentualeIva = 22;
 
-const calcolaPrezzoFinale = (prezzoNetto) => prezzoNetto + (prezzoNetto * percentualeIva) / 100;
+const calcolaPrezzoFinale = (prezzoNetto, percentualeIva) => prezzoNetto + (prezzoNetto * percentualeIva) / 100;
 
-console.log(calcolaPrezzoFinale(100));
+console.log(calcolaPrezzoFinale(100, 22))
+console.log(calcolaPrezzoFinale(100, 4))
+console.log(calcolaPrezzoFinale(50, 22))
+console.log(calcolaPrezzoFinale(80, 0))
 
-// ...cento righe dopo, qualcuno prepara i prezzi dei libri, che hanno l'IVA più bassa
-percentualeIva = 4;
-
-console.log(calcolaPrezzoFinale(100));
 
 /*
   LE QUATTRO DOMANDE (per la nuova versione della funzione)
